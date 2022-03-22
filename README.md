@@ -1,8 +1,13 @@
-# notes
+# Notes App ! :spiral_notepad:
 
-A new Flutter project.
+Very simple mobile application for write notes to remind you of your duties. It keeps the notes on internal database ! <br>
+You can create a new note, update and delete, the basic CRUD. <br>
+Used for database **sqflite package**.
 
-## Getting Started
+## Screenshot
+<img src="https://user-images.githubusercontent.com/95984151/159389284-0cb87426-4755-410a-8302-830ad17f608f.png" width=360, height=650 alt='PrintScreen'>
+
+### Getting Started
 
 This project is a starting point for a Flutter application.
 
