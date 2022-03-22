@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:notes/app/pages/home_page.dart';
 
 void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: HomePage(),
-  ));
+  runApp(
+    const MaterialApp(
+      title: 'Notes App',
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    ),
+  );
 }

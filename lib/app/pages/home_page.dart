@@ -5,7 +5,7 @@ import 'package:notes/app/model/note.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();

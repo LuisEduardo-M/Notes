@@ -3,7 +3,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
 class DatabaseHelper {
-  static final String tableName = 'notes';
+  static const String tableName = 'notes';
   static final DatabaseHelper _dbHelper = DatabaseHelper._internal();
 
   Database? _db;
